@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+	<div class="main">
+		<div id="products" class="products"></div>
+		<div id="bag" class="bag">
+			<div class="head">
+				<h5>SACOLA</h5>			
+			</div>
+			<div>
+				<ul>
+					<li>Coloquei um produto</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="models" style="display: none;">
+		<div id="line">
+			<div class="line">
+				<div class="products-photo">
+					
+				</div>
+				<div class="products-title">
+					<span id="model-title" class="model-title" name="model-title">&nbsp;</span>
+				</div>
+				<div class="model-division"></div>
+				<div class="products-value">
+					<span id="model-currencyFormat" name="model-currencyFormat" class="model-currencyFormat">&nbsp;</span>
+					<b><span name="model-price" class="model-price">&nbsp;</span></b>
+					<span class="model-comma">,</span>
+					<span name="model-decimal" class="model-decimal">&nbsp;</span>
+				</div>
+			</div>	
+		</div>
+    </div>
+	<button onclick="cart.list()">value</button>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/cart.js"></script>
+</body>
+</html>

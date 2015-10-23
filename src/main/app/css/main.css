@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, Helvetica, Verdana, Geneva;
+}
+
+.main {
+	max-width: 100%;
+	display: table-row;
+	font-size: 11px;
+	background: blue;
+}
+
+.main .products {
+	float: left;
+	width: 50%;
+	display: table-column;
+}
+
+.main .bag {
+	float: right;
+	width: 50%;
+	display: table-column;
+	background-color: #292525;
+	color: #FFFFFF;
+}
+
+.main .products .products-photo {
+	background-color: red;
+	width: 180px;
+	height: 230px;
+}
+
+.main .products .model-price {
+	font-size: 22px;
+}
+
+.main .products .model-comma {
+	margin: 0 -3px 0 -4px;
+}
+
+.main .products .products-value {
+	margin: 0 0 40px 0;
+}
+
+.main .products .model-division {
+	background-color: #FFC800;
+	margin-left: 26px;
+	width: 15px;
+	height: 3px;
+}
